@@ -109,3 +109,23 @@ VITE_COINGECKO_API_KEY=your_coingecko_api_key
 ```
 
 > **Note:** Never commit your `.env` file or expose your API key publicly. The `.env` file is excluded from Git using `.gitignore`.
+
+
+## 🧪 Testing
+
+The application was manually tested to verify the functionality and responsiveness of the major features.
+
+| Test Case | Expected Result | Status |
+|---|---|---|
+| Dashboard loading | Dashboard loads correctly | ✅ Passed |
+| Cryptocurrency search | Search results update correctly | ✅ Passed |
+| Currency selection | Prices update according to selected currency | ✅ Passed |
+| Time filter | Chart data changes according to selected period | ✅ Passed |
+| Chart type | Line and Bar charts switch correctly | ✅ Passed |
+| Chart data | Price, Market Cap, and Volume data display correctly | ✅ Passed |
+| Portfolio | Coins can be added and removed | ✅ Passed |
+| Portfolio chart | Portfolio allocation is displayed correctly | ✅ Passed |
+| Exchange calculator | Conversion result updates correctly | ✅ Passed |
+| Responsive design | Layout adapts to different screen sizes | ✅ Passed |
+| API integration | Cryptocurrency data is fetched successfully | ✅ Passed |
+| Error handling | Application handles API/request errors appropriately | ✅ Passed |
