@@ -111,7 +111,7 @@ VITE_COINGECKO_API_KEY=your_coingecko_api_key
 > **Note:** Never commit your `.env` file or expose your API key publicly. The `.env` file is excluded from Git using `.gitignore`.
 
 
-## 🧪 Testing
+<h4> 🧪 Testing </h4>
 
 The application was manually tested to verify the functionality and responsiveness of the major features.
 
@@ -129,3 +129,14 @@ The application was manually tested to verify the functionality and responsivene
 | Responsive design | Layout adapts to different screen sizes | ✅ Passed |
 | API integration | Cryptocurrency data is fetched successfully | ✅ Passed |
 | Error handling | Application handles API/request errors appropriately | ✅ Passed |
+
+
+<h4>🚀 Future Enhancements </h4>
+
+- Add user authentication and personalized portfolios.
+- Add a cryptocurrency watchlist.
+- Add price alerts and notifications.
+- Add cryptocurrency news and market updates.
+- Add portfolio performance history.
+- Add transaction history.
+- Add dark mode.
