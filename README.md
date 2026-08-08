@@ -36,7 +36,7 @@ The project demonstrates modern React development practices, including reusable 
 - View Price, Market Cap, and Volume history.
 - Time filters (1 Day, 1 Week, 1 Month, 6 Months, and 1 Year).
 
-<p align="center"><img src="public\Portfolio.png"  alt="Exchange Feature" width="100%"/> </p>
+<p align="center"><img src="public\Portfolio.png"  alt="Exchange Feature" width="60%"/> </p>
 
 <h6>💼 Portfolio Management</h6>
 - Add cryptocurrencies to a virtual portfolio.
@@ -53,17 +53,17 @@ The project demonstrates modern React development practices, including reusable 
 <table>
   <tr>
     <td align="center">
-      <img src="./public/Portfolio.png" width="300">
+      <img src="./public/mob1.png" width="300">
       <br>
       <b>Portfolio</b>
     </td>
     <td align="center">
-      <img src="./public/Exchange.png" width="300">
+      <img src="./public/mob2.png" width="300">
       <br>
       <b>Exchange</b>
     </td>
     <td align="center">
-      <img src="./public/Dashboard.png" width="300">
+      <img src="./public/mob3.png" width="300">
       <br>
       <b>Dashboard</b>
     </td>
