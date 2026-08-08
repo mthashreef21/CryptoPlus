@@ -55,17 +55,17 @@ The project demonstrates modern React development practices, including reusable 
     <td align="center">
       <img src="./public/mob1.png" width="300">
       <br>
-      <b>Portfolio</b>
+      <b>Dashboard</b>
     </td>
     <td align="center">
       <img src="./public/mob2.png" width="300">
       <br>
-      <b>Exchange</b>
+      <b>Portfolio</b>
     </td>
     <td align="center">
       <img src="./public/mob3.png" width="300">
       <br>
-      <b>Dashboard</b>
+      <b>Exchange</b>
     </td>
   </tr>
 </table>
