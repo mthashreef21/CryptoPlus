@@ -1,6 +1,6 @@
 import FilterBar from "../Components/Filter/FilterBar";
 import NavBar from "../Components/Nav/NavBar";
-import ChartSection from "../Components/Chart/ChartSection";
+import ChartSection from "../Components/chart/ChartSection";
 import PortfolioCard from "../Components/Portfolio/PortfolioCard";
 import MarketCapList from "../Components/Sidebar/MarketCapList";
 import ExchangeCard from "../Components/Exchange/ExchangeCard";
