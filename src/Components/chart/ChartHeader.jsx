@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { useGetCoinsQuery } from "../../features/cryptoApi";
+import { useGetCoinsQuery } from "../../Features/CryptoApi";
 
 function ChartHeader() {
   const selectedCoin = useSelector(

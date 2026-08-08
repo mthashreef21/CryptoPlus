@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { setSelectedCurrency } from "../../features/cryptoSlice";
+import { setSelectedCurrency } from "../../Features/CryptoSlice";
 
 function CurrencyDropdown() {
   const dispatch = useDispatch();

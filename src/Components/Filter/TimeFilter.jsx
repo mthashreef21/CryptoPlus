@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { setSelectedDays } from "../../features/cryptoSlice";
+import { setSelectedDays } from "../../Features/CryptoSlice";
 
 const timeRanges = [
   { label: "1D", value: 1 },

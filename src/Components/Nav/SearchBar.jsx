@@ -1,6 +1,6 @@
 import { FaSearch } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
-import { setSearchTerm } from "../../features/cryptoSlice";
+import { setSearchTerm } from "../../Features/CryptoSlice";
 
 function SearchBar() {
   const dispatch = useDispatch();

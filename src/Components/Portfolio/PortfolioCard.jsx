@@ -1,8 +1,8 @@
 import { useState } from "react";
 import {useSelector,useDispatch,} from "react-redux";
 import { Trash2 } from "lucide-react";
-import { useGetCoinsQuery } from "../../features/cryptoApi";
-import { removePortfolioCoin } from "../../features/cryptoSlice";
+import { useGetCoinsQuery } from "../../Features/CryptoApi";
+import { removePortfolioCoin } from "../../Features/CryptoSlice";
 import PortfolioPieChart from "./PortfolioPieChart";
 import PortfolioModal from "./PortfolioModal";
 

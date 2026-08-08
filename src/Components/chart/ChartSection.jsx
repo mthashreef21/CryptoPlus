@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { useGetCoinChartQuery } from "../../features/cryptoApi";
+import { useGetCoinChartQuery } from "../../Features/CryptoApi";
 import ChartHeader from "./ChartHeader";
 import LineChart from "./LineChart";
 import BarChart from "./BarChart";

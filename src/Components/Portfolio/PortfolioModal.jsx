@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addPortfolioCoin } from "../../features/cryptoSlice";
+import { addPortfolioCoin } from "../../Features/CryptoSlice";
 
 function PortfolioModal({ coins, onClose }) {
   const dispatch = useDispatch();

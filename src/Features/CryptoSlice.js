@@ -23,7 +23,7 @@ const initialState = {
   searchTerm: "",
 };
 
-const cryptoSlice = createSlice({
+const CryptoSlice = createSlice({
   name: "crypto",
 
   initialState,
@@ -118,6 +118,6 @@ export const {
   setSearchTerm,
   addPortfolioCoin,
   removePortfolioCoin,
-} = cryptoSlice.actions;
+} = CryptoSlice.actions;
 
-export default cryptoSlice.reducer;
+export default CryptoSlice.reducer;

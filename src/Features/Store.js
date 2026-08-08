@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { cryptoApi } from "./cryptoApi";
-import cryptoReducer from "./cryptoSlice.js";
+import { cryptoApi } from "./CryptoApi";
+import cryptoReducer from "./CryptoSlice.js";
 
 export const store = configureStore({
   reducer: {
@@ -14,5 +14,5 @@ export const store = configureStore({
 });
 
 // Debug
-console.log("✅ STORE CREATED");
-console.log("Redux State:", store.getState());
+// console.log("✅ STORE CREATED");
+// console.log("Redux State:", store.getState());

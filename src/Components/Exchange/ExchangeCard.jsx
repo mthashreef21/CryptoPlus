@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import { useGetCoinsQuery } from "../../features/cryptoApi";
+import { useGetCoinsQuery } from "../../Features/CryptoApi";
 
 function ExchangeCard() {
   const selectedCurrency = useSelector(

@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
-import { useGetCoinsQuery } from "../../features/cryptoApi";
-import { setSelectedCoin } from "../../features/cryptoSlice";
+import { useGetCoinsQuery } from "../../Features/CryptoApi";
+import { setSelectedCoin } from "../../Features/CryptoSlice";
 
 function CoinDropDown() {
   const dispatch = useDispatch();

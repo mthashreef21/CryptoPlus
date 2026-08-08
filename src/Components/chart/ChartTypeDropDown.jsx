@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { setSelectedChart } from "../../features/cryptoSlice";
+import { setSelectedChart } from "../../Features/CryptoSlice";
 
 function ChartTypeDropDown() {
   const dispatch = useDispatch();
