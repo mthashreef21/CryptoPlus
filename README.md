@@ -70,5 +70,42 @@ The project demonstrates modern React development practices, including reusable 
   </tr>
 </table>
 
+<h4>📂 Project Structure</h4>
 
+```text
+src/
+│
+├── Components/
+│   ├── chart/
+│   ├── Exchange/
+│   ├── Filter/
+│   ├── Nav/
+│   ├── Portfolio/
+│   └── Sidebar/
+│
+├── Features/
+│   ├── CryptoApi.js
+│   ├── CryptoSlice.js
+│   └── Store.js
+│
+├── Pages/
+│   ├── Dashboard.jsx
+│   └── Header.jsx
+│
+├── utils/
+|    |── formatCurrency.js
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+<h4>🔑 Environment Variables</h4>
 
+CryptoPlus uses the CoinGecko API to retrieve cryptocurrency market data.
+
+Create a `.env` file in the root directory and add:
+
+```env
+VITE_COINGECKO_API_KEY=your_coingecko_api_key
+```
+
+> **Note:** Never commit your `.env` file or expose your API key publicly. The `.env` file is excluded from Git using `.gitignore`.
