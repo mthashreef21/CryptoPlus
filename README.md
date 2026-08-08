@@ -3,7 +3,7 @@
 <div align="center">
   <h3>Real-Time Cryptocurrency Dashboard</h3>
 
-  <p align="center"><img src="public\Hero.png" alt="CryptoPlus Banner" width="100%"</p>
+  <p align="center"><img src="public\Hero.png" alt="CryptoPlus Banner" width="100%" /></p>
 
   A modern cryptocurrency dashboard built with **React**, **Redux Toolkit**, **RTK Query**, **Tailwind CSS**, and **Chart.js**.
   Track live cryptocurrency prices, analyze market trends, manage a virtual portfolio, and calculate cryptocurrency exchanges through a fast, responsive, and intuitive interface.
@@ -28,13 +28,15 @@ The project demonstrates modern React development practices, including reusable 
 - View live cryptocurrency market data.
 - Display top cryptocurrencies by market capitalization.
 - Search cryptocurrencies instantly.
-- Support for multiple fiat currencies (USD, INR, EUR, GBP, etc.).
+- Support for multiple fiat currencies (USD, INR, EUR).
 
 <h6>📈 Interactive Charts</h6>
 - Line Chart visualization.
 - Bar Chart visualization.
 - View Price, Market Cap, and Volume history.
 - Time filters (1 Day, 1 Week, 1 Month, 6 Months, and 1 Year).
+
+<p align="center"><img src="public\Portfolio.png"  alt="Exchange Feature" width="100%"/> </p>
 
 <h6>💼 Portfolio Management</h6>
 - Add cryptocurrencies to a virtual portfolio.
@@ -47,3 +49,26 @@ The project demonstrates modern React development practices, including reusable 
 
 <h6> 📱 Responsive Design </h6>
 - Optimized for desktop, tablet, and mobile devices.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="./public/Portfolio.png" width="300">
+      <br>
+      <b>Portfolio</b>
+    </td>
+    <td align="center">
+      <img src="./public/Exchange.png" width="300">
+      <br>
+      <b>Exchange</b>
+    </td>
+    <td align="center">
+      <img src="./public/Dashboard.png" width="300">
+      <br>
+      <b>Dashboard</b>
+    </td>
+  </tr>
+</table>
+
+
+
