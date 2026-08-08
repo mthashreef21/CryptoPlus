@@ -98,18 +98,70 @@ src/
 ├── index.css
 └── main.jsx
 ```
-<h4>🔑 Environment Variables</h4>
 
-CryptoPlus uses the CoinGecko API to retrieve cryptocurrency market data.
+<h4>⚙️ Installation & Setup</h4>
 
-Create a `.env` file in the root directory and add:
+<h6>Prerequisites</h6>
+
+Make sure you have the following installed:
+
+- Node.js
+- npm
+- Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/mthashreef21/CryptoPlus.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd CryptoPlus
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure environment variables
+
+Create a `.env` file in the project root:
 
 ```env
 VITE_COINGECKO_API_KEY=your_coingecko_api_key
 ```
 
-> **Note:** Never commit your `.env` file or expose your API key publicly. The `.env` file is excluded from Git using `.gitignore`.
+> The `.env` file is excluded from Git using `.gitignore` to prevent exposing the API key.
 
+### 5. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will then be available at the local URL provided by Vite, usually:
+
+```text
+http://localhost:5173
+```
+
+### 6. Build for production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
 
 <h4> 🧪 Testing </h4>
 
@@ -140,3 +192,17 @@ The application was manually tested to verify the functionality and responsivene
 - Add portfolio performance history.
 - Add transaction history.
 - Add dark mode.
+
+---
+
+## ⭐ Thank You
+
+Thank you for taking the time to explore **CryptoPlus**!
+
+If you found this project interesting, feel free to ⭐ the repository.
+
+---
+
+<p align="center">
+  Built with ❤️ using React, Redux Toolkit, and Tailwind CSS.
+</p>
