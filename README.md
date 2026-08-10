@@ -93,7 +93,17 @@ src/
 │   └── Header.jsx
 │
 ├── utils/
-|    |── formatCurrency.js
+│   └── formatCurrency.js
+│
+├── test/
+│   ├── CryptoSlice.test.jsx
+│   ├── CurrencyDropDown.test.jsx
+│   ├── PortfolioModal.test.jsx
+│   ├── SearchBar.test.jsx
+│   ├── TimeFilter.test.jsx
+│   ├── formatCurrency.test.jsx
+│   └── setup.js
+│
 ├── App.jsx
 ├── index.css
 └── main.jsx
